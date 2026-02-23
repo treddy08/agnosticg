@@ -16,7 +16,7 @@ spec:
         name: gitlab-redis
     spec:
       containers:
-      - image: registry.redhat.io/rhel8/redis-6:latest
+      - image: docker.io/library/redis:6.2.6
         livenessProbe:
           exec:
             command:
